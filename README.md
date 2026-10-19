@@ -36,7 +36,7 @@ Our hybrid pipeline spans classical econometrics and modern machine learning:
 5. **Explainable AI (XAI):** TreeSHAP integration for global dimensionality reduction and feature attribution.
 
 ## Key Findings & Results
-* **Optimal Architecture:** Unconstrained non-linear models natively overfit the idiosyncratic $I(0)$ shocks of this small sample. **XGBoost** proved superior ($RMSE = 1.6353$, $R^2 = -0.0995$) by employing strict structural constraints: $\text{max\_depth} = 1$ (binary decision stumps) and an $L_2$ regularization penalty of $\lambda = 1$.
+* **Optimal Architecture:** Unconstrained non-linear models natively overfit the idiosyncratic $I(0)$ shocks of this small sample. **XGBoost** proved superior ($RMSE = 1.6353$, $R^2 = -0.0995$).
 * **Economic Insights via SHAP:** 
   * The model organically pruned noisy transmission channels (like Exchange Rates and FDI) to exactly zero impact ($\phi_i = 0$).
   * Lagged labor market dynamics (`LABF_DIFF_lag1` and `UNEMP_DIFF_lag1`) emerged as the dominant structural drivers.
