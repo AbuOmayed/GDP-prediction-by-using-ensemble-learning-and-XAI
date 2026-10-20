@@ -1,6 +1,6 @@
-# Macroeconomic Trend Forecasting via Regularized Machine Learning
+## Macroeconomic GDP Forecasting Using Ensemble Learning and XAI
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/python-3%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Ensemble-orange)
 ![Econometrics](https://img.shields.io/badge/Econometrics-Time%20Series-success)
 ![SHAP](https://img.shields.io/badge/Explainable%20AI-SHAP-purple)
